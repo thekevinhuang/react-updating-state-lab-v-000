@@ -22,7 +22,7 @@ export default class YouTubeDebugger extends Component {
       ...this.state.settings.video, resolution: '720p'
     })
   }
-  
+
   render() {
     return (
         <button className="bitrate" onClick={this.bitHandler}>Bitrate Adjuster</button>
